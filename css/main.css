@@ -73,14 +73,17 @@ footer {
 
   #column-3 {
     background-color: darkseagreen;
+    width: 100%;
   }
 
   footer {
     background-color: cadetblue;
   }
 
+  .col-3 {
+    width: 50%;
+  }
 }
-
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
@@ -98,10 +101,14 @@ footer {
 
   #column-3 {
     background-color: gold;
+    width: 33%;
   }
 
   footer {
     background-color: coral;
   }
 
+  .col-3 {
+    width: 33.3%;
+  }
 }
